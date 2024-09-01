@@ -1,0 +1,658 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06386b10f29c770408fc88b031c4d7fd, type: 3}
+  m_Name: EditorResources
+  m_EditorClassIdentifier: 
+  resourceCategories:
+  - Id: TextPrinters/6301000d-e13a-44e7-9d33-346c161d3306
+    Resources:
+    - name: Dialogue
+      pathPrefix: TextPrinters
+      guid: 1bc08ccd31adff6439e97161aa6e1d8b
+  - Id: TextPrinters/e2f7c43e-deea-46b1-b806-8fe76d27a101
+    Resources:
+    - name: Fullscreen
+      pathPrefix: TextPrinters
+      guid: c87cebd3f0d4f174789cd351ce9591c4
+  - Id: TextPrinters/875ad0bc-bedd-4754-92f8-fe21fd338cbc
+    Resources:
+    - name: Wide
+      pathPrefix: TextPrinters
+      guid: 781828b806deb1e4cbf50ef9de41da10
+  - Id: TextPrinters/0304721d-2f65-4ae6-b611-50ac76790428
+    Resources:
+    - name: Chat
+      pathPrefix: TextPrinters
+      guid: 0126b92e4ff0f564aaa7a38eae3ef6e7
+  - Id: TextPrinters/3765e3df-4544-497f-9f15-3cfcadcbbc58
+    Resources:
+    - name: Bubble
+      pathPrefix: TextPrinters
+      guid: b47d9659b2be5ee4e95a776f213c9d4b
+  - Id: TextPrinters/5352cab6-31f2-480e-96fa-4b067bbba70b
+    Resources:
+    - name: TMProDialogue
+      pathPrefix: TextPrinters
+      guid: 5838611042eaced44954639c4ea4d81e
+  - Id: TextPrinters/057fc573-3ab3-43a4-bae9-b9fa08d8356f
+    Resources:
+    - name: TMProFullscreen
+      pathPrefix: TextPrinters
+      guid: a2aaa417785eeca409e78c404f333ee5
+  - Id: TextPrinters/b5c9cd0e-c219-4a8f-969c-7fb41260c09e
+    Resources:
+    - name: TMProWide
+      pathPrefix: TextPrinters
+      guid: 7860ef40eae6a3341be02586f7edd980
+  - Id: TextPrinters/b698c4c6-afa1-4a01-8ed7-56b64b051061
+    Resources:
+    - name: TMProChat
+      pathPrefix: TextPrinters
+      guid: 6f9836a3c4f777741b1962979d97e485
+  - Id: TextPrinters/921828f3-6e04-4b8a-9116-ffe984901f2f
+    Resources:
+    - name: TMProBubble
+      pathPrefix: TextPrinters
+      guid: 18cfa78b5fc89b745ba69d51a6a8629a
+  - Id: ChoiceHandlers/f73cf097-a744-4689-8eba-7ef4bbe86b46
+    Resources:
+    - name: ButtonList
+      pathPrefix: ChoiceHandlers
+      guid: 1f6aa29000e839c409e6a9c0704adc96
+  - Id: ChoiceHandlers/a10586b7-2da0-4cec-b55d-238bada2d3cf
+    Resources:
+    - name: ButtonArea
+      pathPrefix: ChoiceHandlers
+      guid: 4fa6d62f894ae6e4698bfa8af59e7942
+  - Id: ChoiceHandlers/c97214d8-e57d-4734-abeb-8eee92a8b4a2
+    Resources:
+    - name: ChatReply
+      pathPrefix: ChoiceHandlers
+      guid: 0e61df696cabbea448510879ee732b00
+  - Id: Spawn
+    Resources:
+    - name: Animate
+      pathPrefix: Spawn
+      guid: 7bf06fa813bb9c34daf521998fa72ab1
+    - name: DepthOfField
+      pathPrefix: Spawn
+      guid: ea76638b26a915946b62907dd1e776fd
+    - name: DigitalGlitch
+      pathPrefix: Spawn
+      guid: be75a73ecccb90b4caa5c14edb9ac467
+    - name: Rain
+      pathPrefix: Spawn
+      guid: a9117e2fa90704d45b3e1461596c11ee
+    - name: ShakeBackground
+      pathPrefix: Spawn
+      guid: 9f56c556ba32fd54fae62347c25a8145
+    - name: ShakeCamera
+      pathPrefix: Spawn
+      guid: 1c5b86cf3cfbb1f44ae5641699077da4
+    - name: ShakeCharacter
+      pathPrefix: Spawn
+      guid: 1224d69e1592d624cbde93d0f7383d91
+    - name: ShakePrinter
+      pathPrefix: Spawn
+      guid: 2795040988e866646801c80024c50be1
+    - name: Snow
+      pathPrefix: Spawn
+      guid: 9f4e71cb27fffa04486737d2cf8d622d
+    - name: SunShafts
+      pathPrefix: Spawn
+      guid: c4bf810b9b6cc9f44a58fd670678ded4
+    - name: Blur
+      pathPrefix: Spawn
+      guid: e466d9326b30a4b49a3dad428b4d9968
+  - Id: UI
+    Resources:
+    - name: ClickThroughPanel
+      pathPrefix: UI
+      guid: 702c32b2de0c0784b9a66ec90601874f
+    - name: BacklogUI
+      pathPrefix: UI
+      guid: 7fba909c66b25324cb77db18679c2c96
+    - name: CGGalleryUI
+      pathPrefix: UI
+      guid: 71da50c8dae82bd42ba67528804e820c
+    - name: ConfirmationUI
+      pathPrefix: UI
+      guid: 88d03f19bcbff914ba33a7c9895e2d7c
+    - name: ContinueInputUI
+      pathPrefix: UI
+      guid: 1add671f8348e8443bcc56290e82fc5e
+    - name: ExternalScriptsUI
+      pathPrefix: UI
+      guid: 671ceb4f549ddf046913d7debf113469
+    - name: LoadingUI
+      pathPrefix: UI
+      guid: 53aad00e5cf184e458adb001c550518a
+    - name: MovieUI
+      pathPrefix: UI
+      guid: f9a211517d1cb1a44964dc2254463049
+    - name: RollbackUI
+      pathPrefix: UI
+      guid: a32c73a3aff4b274c85b3ff16c854b07
+    - name: SaveLoadUI
+      pathPrefix: UI
+      guid: 8d53726b3d08433479398f02b4780e7f
+    - name: SceneTransitionUI
+      pathPrefix: UI
+      guid: e3b234b4273b7f64ab3f1d9fe425ed23
+    - name: SettingsUI
+      pathPrefix: UI
+      guid: 65c37f59e9b266f468dd5381fdc03fc3
+    - name: TipsUI
+      pathPrefix: UI
+      guid: f5aae572225ee1b4c96d1a17fc5cb073
+    - name: TitleUI
+      pathPrefix: UI
+      guid: 4b121aa1be1b7e04480b452c595ff17a
+    - name: VariableInputUI
+      pathPrefix: UI
+      guid: bb95f484e341dcd4391a572f22b7d067
+    - name: PauseUI
+      pathPrefix: UI
+      guid: 480f5db62ea305c46b89a86496d2a0c9
+    - name: ToastUI
+      pathPrefix: UI
+      guid: dd85ce99288c2f8488447fa511b1c0d6
+  - Id: Scripts
+    Resources:
+    - name: main
+      pathPrefix: Scripts
+      guid: 712a3c38c29e77940a414fd97dbcec6f
+    - name: day1
+      pathPrefix: Scripts
+      guid: 94cb1e5e74b27f446847c276fa84c994
+    - name: day2
+      pathPrefix: Scripts
+      guid: 563061153fcb9954c810ed2846130b16
+  - Id: Backgrounds/7219ac01-523d-4774-abef-3baa4ed39d09
+    Resources:
+    - name: dormitory_day
+      pathPrefix: Backgrounds/MainBackground
+      guid: 68b847bdc74dd474181422ff7870bcc8
+    - name: dormitory_night
+      pathPrefix: Backgrounds/MainBackground
+      guid: 4bf63b2b8678cb745a76351f8b79029b
+    - name: hospital_ward
+      pathPrefix: Backgrounds/MainBackground
+      guid: 85754500830c7964fabe4002b265f569
+    - name: porch_dormitory_day
+      pathPrefix: Backgrounds/MainBackground
+      guid: e7903ce225bd7a94883a0e6b497c7f04
+    - name: porch_dormitory_night
+      pathPrefix: Backgrounds/MainBackground
+      guid: d32d6991fad6eed4c884647853fcf3ac
+    - name: corridor_day
+      pathPrefix: Backgrounds/MainBackground
+      guid: e9adadffea6d0a34289dc89e6a67eb38
+    - name: manager_room_day
+      pathPrefix: Backgrounds/MainBackground
+      guid: d5634e3f588cc814fa1b48fc01428943
+    - name: manager_room_evening
+      pathPrefix: Backgrounds/MainBackground
+      guid: 6d8639d8efb0b40499fddc8fceee2d9b
+    - name: manager_room_morning
+      pathPrefix: Backgrounds/MainBackground
+      guid: 8b4299a6d1421424eaf783f8871f3652
+    - name: manager_room_night
+      pathPrefix: Backgrounds/MainBackground
+      guid: a2585c0d459ff964b9d2255cb8d3d5bb
+    - name: PC_1
+      pathPrefix: Backgrounds/MainBackground
+      guid: 5a6a310ca220ba14890998c75106208a
+    - name: PC_2
+      pathPrefix: Backgrounds/MainBackground
+      guid: 756d31a46023e4d488b82b842e8db605
+    - name: PC_3
+      pathPrefix: Backgrounds/MainBackground
+      guid: e6f94f665cee1294e83e1edf174cc290
+    - name: PC_4
+      pathPrefix: Backgrounds/MainBackground
+      guid: 8aa810f01c24a48469e350b422fc043b
+    - name: PC_5
+      pathPrefix: Backgrounds/MainBackground
+      guid: 9f0a64a0b60a3444ba87b02c16712dc9
+    - name: sitting_on_face_1
+      pathPrefix: Backgrounds/MainBackground
+      guid: 4881ce696962fa1468465a76135cd850
+    - name: sitting_on_face_2
+      pathPrefix: Backgrounds/MainBackground
+      guid: 0c1a53f6e7c0e2d44be09651b17b0f6c
+    - name: Zoya_room
+      pathPrefix: Backgrounds/MainBackground
+      guid: a1bffec7585e4d54db23f6c3073c86b4
+    - name: Zoya_room_pose_5
+      pathPrefix: Backgrounds/MainBackground
+      guid: 10cecc52d68687b41819f08977f81a22
+    - name: PC_6
+      pathPrefix: Backgrounds/MainBackground
+      guid: 53a627f2bd8545347a9ce5bee403e067
+    - name: PC_7
+      pathPrefix: Backgrounds/MainBackground
+      guid: 282c043a25f0cbc4b8c8eb5a9c2acea1
+    - name: PC_8
+      pathPrefix: Backgrounds/MainBackground
+      guid: 45665f980093c7246b549d3afe3441ae
+    - name: PC_9
+      pathPrefix: Backgrounds/MainBackground
+      guid: 358cb0b3dc61cae418ceb8c6f3d1d2b2
+    - name: PC_10
+      pathPrefix: Backgrounds/MainBackground
+      guid: 4d6d51028a104dd43a1add47e62b29da
+    - name: PC_11
+      pathPrefix: Backgrounds/MainBackground
+      guid: 96ea5abe37da1d94fbb2864fdf1d9c56
+    - name: PC_12
+      pathPrefix: Backgrounds/MainBackground
+      guid: 9db3af23ce447c74fbf93e02356dcbf3
+    - name: PC_13
+      pathPrefix: Backgrounds/MainBackground
+      guid: d498611c6a23d0d4198f6335ea9f3167
+    - name: PC_14
+      pathPrefix: Backgrounds/MainBackground
+      guid: acf6d41ebd37ac44c83fc2e787d3e634
+    - name: PC_15
+      pathPrefix: Backgrounds/MainBackground
+      guid: fda2861f813e8254a9ea3c170fa080d9
+    - name: PC_camera_password_1
+      pathPrefix: Backgrounds/MainBackground
+      guid: 40cdf7daebbf10d4391183e4521661ab
+    - name: PC_camera_password_2
+      pathPrefix: Backgrounds/MainBackground
+      guid: 8dab1dd6181d71148934df5d5f386be2
+    - name: PC_camera_password_3
+      pathPrefix: Backgrounds/MainBackground
+      guid: 04d7b6ac30767a84790d8b9a35160172
+    - name: PC_camera_password_4
+      pathPrefix: Backgrounds/MainBackground
+      guid: 965a40daa5d71704aa36363a05e7f6e4
+    - name: PC_camera_password_5
+      pathPrefix: Backgrounds/MainBackground
+      guid: ec3eaa22fd134dd4bbf58233a6fbd8ab
+    - name: PC_camera_password_6
+      pathPrefix: Backgrounds/MainBackground
+      guid: d63beb7b61f0dd643b79409606ab9f4e
+    - name: PC_camera_password_7
+      pathPrefix: Backgrounds/MainBackground
+      guid: 4c5c4bc15bfbcdf44a04b66e2a41edd9
+    - name: PC_camera_password_8
+      pathPrefix: Backgrounds/MainBackground
+      guid: 79f1389d670d48348b30012c838598bd
+    - name: PC_camera_password_9
+      pathPrefix: Backgrounds/MainBackground
+      guid: 69256202c65bdc940b49145499d2ff5a
+    - name: PC_camera_password_10
+      pathPrefix: Backgrounds/MainBackground
+      guid: c7e295b9fe92f33468b6a2a3761a7d1a
+  - Id: Characters/4ff24299-93ac-4d78-a841-71ea00cd7831
+    Resources:
+    - name: zoya_pose_1_angry
+      pathPrefix: Characters/Zoya
+      guid: 88b6433a2f13db24e8f6c3d7f6f4a533
+    - name: zoya_pose_1_sad
+      pathPrefix: Characters/Zoya
+      guid: 131ae95377d9a1548af9a54fabceb805
+    - name: zoya_pose_1_smile
+      pathPrefix: Characters/Zoya
+      guid: 6c3f1f2cdd2fa30488130959a6de4eda
+    - name: zoya_pose_1_surprised
+      pathPrefix: Characters/Zoya
+      guid: 71aca33d932c3a3459754a5c40f47698
+    - name: zoya_pose_2_angry
+      pathPrefix: Characters/Zoya
+      guid: c29ef2c20b6074c4581cc41b57946a6b
+    - name: zoya_pose_2_sad
+      pathPrefix: Characters/Zoya
+      guid: 30c42ab4dc48075479959731df7565f4
+    - name: zoya_pose_2_smile
+      pathPrefix: Characters/Zoya
+      guid: 7a451bb906040e546adafdd4a113d57c
+    - name: zoya_pose_2_surprised
+      pathPrefix: Characters/Zoya
+      guid: f8e30845a9a9c79479a09c4286e3884e
+    - name: zoya_pose_3_angry
+      pathPrefix: Characters/Zoya
+      guid: dcc593ff72713dc47a917f7902bdb484
+    - name: zoya_pose_3_sad
+      pathPrefix: Characters/Zoya
+      guid: 5a68b9794f213a4479c01a17e8f318d4
+    - name: zoya_pose_3_smile
+      pathPrefix: Characters/Zoya
+      guid: 1b9922327fd9bb74f87831785c16507a
+    - name: zoya_pose_3_surprised
+      pathPrefix: Characters/Zoya
+      guid: 132b5b8389d502e4d9e40d4c2e5fa0da
+    - name: zoya_pose_4_angry
+      pathPrefix: Characters/Zoya
+      guid: a3113ca3c5a5f524292b2870f1452212
+    - name: zoya_pose_4_sad
+      pathPrefix: Characters/Zoya
+      guid: 51095c4e2c21e3347afca76550c62868
+    - name: zoya_pose_4_smile
+      pathPrefix: Characters/Zoya
+      guid: 3817b4501335e2d429e3379927766c9c
+    - name: zoya_pose_4_surprised_
+      pathPrefix: Characters/Zoya
+      guid: 3df1ea6168aae1c4d82a52d729a8f780
+  - Id: Characters/817be48e-29fa-4e86-8f9e-91e187a2ff43
+    Resources:
+    - name: carol_pose_1_winks
+      pathPrefix: Characters/Carol
+      guid: 3819c1f14a199b64c82b2260c2d3b32d
+    - name: carol_pose_1_angry
+      pathPrefix: Characters/Carol
+      guid: 18a4f5451a8708b4da3a0009223ae72c
+    - name: carol_pose_1_sad
+      pathPrefix: Characters/Carol
+      guid: e304a762a6be6eb41b3b6b2332f5b2b5
+    - name: carol_pose_1_smile
+      pathPrefix: Characters/Carol
+      guid: e1848e3cc1a145042b715871df3fbc01
+    - name: carol_pose_1_surprised
+      pathPrefix: Characters/Carol
+      guid: decf652f827d7624bb45fd7ae43e5bb8
+    - name: carol_pose_2_angry
+      pathPrefix: Characters/Carol
+      guid: 863fcb7ece742db48b6d913f1325c183
+    - name: carol_pose_2_sad
+      pathPrefix: Characters/Carol
+      guid: 19386da3c1c8df849ae310d14209488b
+    - name: carol_pose_2_smile
+      pathPrefix: Characters/Carol
+      guid: 29685c150a06d4f4f8aeea4488772c91
+    - name: carol_pose_2_surprised
+      pathPrefix: Characters/Carol
+      guid: ef89bb6369493eb43824f4949642763c
+    - name: carol_pose_2_winks
+      pathPrefix: Characters/Carol
+      guid: bfe388f63bc4be848af3667949a19f1b
+    - name: carol_pose_3_angry
+      pathPrefix: Characters/Carol
+      guid: 3e3367b909f09ac4c9fa0a87aadc5f62
+    - name: carol_pose_3_sad
+      pathPrefix: Characters/Carol
+      guid: 56db7362e1397fe408ebfda3a753dc18
+    - name: carol_pose_3_smile_
+      pathPrefix: Characters/Carol
+      guid: c85df5c503e164944809958e56f9c438
+    - name: carol_pose_3_surprised
+      pathPrefix: Characters/Carol
+      guid: 6c20e9656efa7c14f95affa0fbbfbc54
+    - name: carol_pose_3_winks
+      pathPrefix: Characters/Carol
+      guid: 3263357e3a89db54e87b0da0893ed717
+    - name: carol_pose_4
+      pathPrefix: Characters/Carol
+      guid: 719e6886e988e0648b50a131d482769f
+  - Id: Characters/1da17daa-b693-4cbb-9f49-a5ac9fdbd181
+    Resources:
+    - name: delivery_man_pose_1_angry
+      pathPrefix: Characters/Delivery_man
+      guid: 29585d70f9171754e9a586e22a83be8e
+    - name: delivery_man_pose_1_sad
+      pathPrefix: Characters/Delivery_man
+      guid: 4fc1b2e376d9dc04fa9aedeb6d71ce59
+    - name: delivery_man_pose_1_smile
+      pathPrefix: Characters/Delivery_man
+      guid: 8115ec1f3945bef4583fdcc0f17e5137
+    - name: delivery_man_pose_1_surprised
+      pathPrefix: Characters/Delivery_man
+      guid: 7135c865f7b02dd4fa0a2052157d41fb
+    - name: delivery_man_pose_2_angry
+      pathPrefix: Characters/Delivery_man
+      guid: 13fc54546124b1944a5e2fd93317e560
+    - name: delivery_man_pose_2_sad
+      pathPrefix: Characters/Delivery_man
+      guid: bb74f557b4d16df4aa5b97c032dce0a8
+    - name: delivery_man_pose_2_smile
+      pathPrefix: Characters/Delivery_man
+      guid: e736bfd11a6501845acc7a8051b01ca8
+    - name: delivery_man_pose_2_surprised
+      pathPrefix: Characters/Delivery_man
+      guid: 74549df5d2c50af49a8de7ac71ac30cf
+    - name: delivery_man_pose_3_angry
+      pathPrefix: Characters/Delivery_man
+      guid: 77abfd682e76cfa4fba6682998939d8d
+    - name: delivery_man_pose_3_sad
+      pathPrefix: Characters/Delivery_man
+      guid: 22655b55442f68d46bed14618809e553
+    - name: delivery_man_pose_3_smile
+      pathPrefix: Characters/Delivery_man
+      guid: 9a957809724379c4c94802067eddd64a
+    - name: delivery_man_pose_3_surprised
+      pathPrefix: Characters/Delivery_man
+      guid: a2be798bfeea230489a23eb33e5e8383
+  - Id: Characters/2173ea93-80c8-44f7-846a-8168f7e7b374
+    Resources:
+    - name: eva_pose_1_angry
+      pathPrefix: Characters/Eva
+      guid: 8aedccdaea7a30b4b80d217a74e4557b
+    - name: eva_pose_1_sad
+      pathPrefix: Characters/Eva
+      guid: 9314a76af9e66de4f98c55731f581599
+    - name: eva_pose_1_smile
+      pathPrefix: Characters/Eva
+      guid: 92d8923eb03e3a6438c427804b965849
+    - name: eva_pose_1_surprised
+      pathPrefix: Characters/Eva
+      guid: 91b3ef37dafbe8041816ebfa418ec77e
+    - name: eva_pose_2_angry
+      pathPrefix: Characters/Eva
+      guid: 3c7b37dd146a74b4494f0da272999bb4
+    - name: eva_pose_2_sad
+      pathPrefix: Characters/Eva
+      guid: 2cb6356ebf6fce24085e2be19951f7e6
+    - name: eva_pose_2_smile
+      pathPrefix: Characters/Eva
+      guid: 6593473d8d289c6458a7f5dfbc6f77ae
+    - name: eva_pose_2_surprised
+      pathPrefix: Characters/Eva
+      guid: 6b270f84a691ce9468ed926df703a115
+    - name: eva_pose_3_angry
+      pathPrefix: Characters/Eva
+      guid: 0ed82e22ee817c649bda75190fbdc760
+    - name: eva_pose_3_sad
+      pathPrefix: Characters/Eva
+      guid: bedc3e1558c51864c8d6d2b659b7a386
+    - name: eva_pose_3_smile
+      pathPrefix: Characters/Eva
+      guid: b1a94b97a9cda2c4295d1c3869be517a
+    - name: eva_pose_3_surprised
+      pathPrefix: Characters/Eva
+      guid: 7724d81c5c6f2c54ba341b58264020a4
+  - Id: Characters/2f624bf1-ccc1-4bb5-87c5-5392899d436e
+    Resources:
+    - name: father_pose_1_angry
+      pathPrefix: Characters/Father
+      guid: 5eeb41b815ceb3542b0136f5b6be107b
+    - name: father_pose_1_sad
+      pathPrefix: Characters/Father
+      guid: 40878abe19f998249a411569bcd589e9
+    - name: father_pose_1_smile
+      pathPrefix: Characters/Father
+      guid: e9af51bf3e4cba842a9fbff47ecffcca
+    - name: father_pose_1_surprised
+      pathPrefix: Characters/Father
+      guid: f5574e9b36d4e3743b09e755bfc23b34
+    - name: father_pose_2_angry
+      pathPrefix: Characters/Father
+      guid: 912b92454b41d9f4fa154a8e7a723e19
+    - name: father_pose_2_sad
+      pathPrefix: Characters/Father
+      guid: 495261c01f7b99747a82b68e7065171e
+    - name: father_pose_2_smile
+      pathPrefix: Characters/Father
+      guid: 1e64e33324ac0034abbbffa4af3c1ad2
+    - name: father_pose_2_surprised
+      pathPrefix: Characters/Father
+      guid: a89120301b36e2a44ace80bbc0dd98ed
+    - name: father_pose_3_angry
+      pathPrefix: Characters/Father
+      guid: 7f2b18409819d734bb6fb68039c47d31
+    - name: father_pose_3_sad
+      pathPrefix: Characters/Father
+      guid: a9e8ed48c589a914e8c571437ca7d643
+    - name: father_pose_3_smile
+      pathPrefix: Characters/Father
+      guid: 2da4eaefec8851447b3a71565ebb2ca0
+    - name: father_pose_3_surprised
+      pathPrefix: Characters/Father
+      guid: 8095e194ff18da244ab72a4c3b1513a7
+    - name: father_pose_4_angry
+      pathPrefix: Characters/Father
+      guid: 95f15be219fc0d84796cc0e68a184016
+    - name: father_pose_4_sad
+      pathPrefix: Characters/Father
+      guid: f5d5d52f5c57b40448cc4e8ca4ad3307
+    - name: father_pose_4_smile
+      pathPrefix: Characters/Father
+      guid: 26a6f529d2d5d19469a6a8164878c27d
+    - name: father_pose_4_surprised
+      pathPrefix: Characters/Father
+      guid: e0b50e7528062244c91d80948115a524
+  - Id: Characters/904967d9-8121-46aa-9cdf-20366dc56edf
+    Resources:
+    - name: master_pose_1_angry
+      pathPrefix: Characters/Master
+      guid: 05d79404d6622414fabb52fb3ba603d4
+    - name: master_pose_1_sad
+      pathPrefix: Characters/Master
+      guid: f1117e234aa408b46975b25ee8814915
+    - name: master_pose_1_smile
+      pathPrefix: Characters/Master
+      guid: 8f254fe1c1213a54a83e93791e03ff89
+    - name: master_pose_1_surprised
+      pathPrefix: Characters/Master
+      guid: fadd2c70033ecd149b6a573343923b35
+    - name: master_pose_2_angry
+      pathPrefix: Characters/Master
+      guid: 886de0572ccb325488ade69be8459c57
+    - name: master_pose_2_sad
+      pathPrefix: Characters/Master
+      guid: ba9d742548bdd74469fdd10c76c6afb7
+    - name: master_pose_2_smile
+      pathPrefix: Characters/Master
+      guid: 34505150ed4e8ac4e80ccfb4ea6b5396
+    - name: master_pose_2_surprised
+      pathPrefix: Characters/Master
+      guid: 3d84db5073c09f74fb098cc6e93b28d6
+    - name: master_pose_3_angry
+      pathPrefix: Characters/Master
+      guid: 51139c760a55c6e4480e53af8acdba6c
+    - name: master_pose_3_sad
+      pathPrefix: Characters/Master
+      guid: c99f8fb351528544c84cc5508e78fdd3
+    - name: master_pose_3_smile
+      pathPrefix: Characters/Master
+      guid: 6a28652d76550274fb6661ffdcf8f4d9
+    - name: master_pose_3_surprised
+      pathPrefix: Characters/Master
+      guid: 7f5f73dca47092642b81aa36ddd91d07
+  - Id: Characters/b9d91c49-fecd-459e-b154-9f27210596b9
+    Resources:
+    - name: rachel_pose_1_angry
+      pathPrefix: Characters/Rachel
+      guid: 4542ccb6d5e48714db9c0f9074d68bc8
+    - name: rachel_pose_1_sad
+      pathPrefix: Characters/Rachel
+      guid: 7840be94ab54eda4ab3bf790d0e1a5c2
+    - name: rachel_pose_1_smile
+      pathPrefix: Characters/Rachel
+      guid: 5393eac3d0a6964488423c13d1dd32a2
+    - name: rachel_pose_1_surprised
+      pathPrefix: Characters/Rachel
+      guid: 430c4bc28d590a54daeda496e970d0e3
+    - name: rachel_pose_2_angry
+      pathPrefix: Characters/Rachel
+      guid: a6a093a47691760438a7e8190900a5a8
+    - name: rachel_pose_2_sad
+      pathPrefix: Characters/Rachel
+      guid: 0c4f3a68186259e4c89fda88546840f0
+    - name: rachel_pose_2_smile
+      pathPrefix: Characters/Rachel
+      guid: 6e4ba1571b83e7543979a5ac1b76cfc1
+    - name: rachel_pose_2_surprised
+      pathPrefix: Characters/Rachel
+      guid: ba0a6ecae1924cc4399df1cac00bc3e5
+    - name: rachel_pose_3_angry
+      pathPrefix: Characters/Rachel
+      guid: 0e20d5750c3765745a238b5f94fe87ba
+    - name: rachel_pose_3_sad
+      pathPrefix: Characters/Rachel
+      guid: 48c37aa18e121764cbcd56fda7da12ec
+    - name: rachel_pose_3_smile
+      pathPrefix: Characters/Rachel
+      guid: 57fdf124adf954f47946d29b6681792c
+    - name: rachel_pose_3_surprised
+      pathPrefix: Characters/Rachel
+      guid: 2cee4fd08c331f146b85ebe342a47cb2
+  - Id: Characters/d14cbda7-0be8-4802-9749-75dfe733e0f7
+    Resources:
+    - name: sara_pose_1_angry
+      pathPrefix: Characters/Sara
+      guid: 1cbcbf3bee9f300459d2fce3d7b9f05a
+    - name: sara_pose_1_sad
+      pathPrefix: Characters/Sara
+      guid: 752e32094af3ea843a5d0824496b7071
+    - name: sara_pose_1_smile
+      pathPrefix: Characters/Sara
+      guid: a256b33b6dc55d64fa34f3918d6ad17b
+    - name: sara_pose_1_surprised
+      pathPrefix: Characters/Sara
+      guid: f4b6eff2cbd8b424a96fd87a4b0a7eb2
+    - name: sara_pose_2_angry
+      pathPrefix: Characters/Sara
+      guid: 42fb47d6ef2beb544a97f43deb181874
+    - name: sara_pose_2_sad
+      pathPrefix: Characters/Sara
+      guid: 5ac3045d8841a7d40aea4dfd582314d5
+    - name: sara_pose_2_smile
+      pathPrefix: Characters/Sara
+      guid: 85a692d404d1d5a43b806dcbea25853e
+    - name: sara_pose_2_surprised
+      pathPrefix: Characters/Sara
+      guid: 6511dacb9b38a774487766bd8c570618
+    - name: sara_pose_3_angry
+      pathPrefix: Characters/Sara
+      guid: 245342f5c8c09ca4da830e603d629f06
+    - name: sara_pose_3_sad
+      pathPrefix: Characters/Sara
+      guid: 39e0e93ad568e7049aff0457e7140ad3
+    - name: sara_pose_3_smile
+      pathPrefix: Characters/Sara
+      guid: 80d1dad5c694f6a43832c7d0320b7009
+    - name: sara_pose_3_surprised
+      pathPrefix: Characters/Sara
+      guid: 18f5fb46e9ea31a4bbc0632f63428ea2
+  - Id: Characters/95c6ce1c-5b7c-403a-aa1e-2ff7c8cb8926
+    Resources:
+    - name: key
+      pathPrefix: Characters/Keys
+      guid: ffe56d07c0178fc4aaeb8313fa71e47b
+  - Id: Characters/89100768-e84c-4baa-ad2d-b6bf5973c18a
+    Resources:
+    - name: IV
+      pathPrefix: Characters/IV
+      guid: 026bb125c4b6f58469eb795bf495871e
+  - Id: Characters/b54136c2-8813-4efe-8ae4-b714b4548d6e
+    Resources:
+    - name: laptop
+      pathPrefix: Characters/Laptop
+      guid: 5b7b196f971be7a47b5ebe9441fb4566
+  - Id: Characters/0a0415b0-6c78-4916-b4ec-4a209a505ce6
+    Resources:
+    - name: computer_arrow
+      pathPrefix: "Characters/\u0421omputer_arrow"
+      guid: b79fe0b326a49054786606603197576d
